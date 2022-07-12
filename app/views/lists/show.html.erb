@@ -1,0 +1,8 @@
+<%= @list.name %>
+
+<%# add a bookmark %>
+<div>
+  <%= link_to 'bookmark/new' %>
+</div>
+
+<%= link_to 'Delete list', list_path(@list), method: :delete, data: { confirm: "Are you sure?" } %>

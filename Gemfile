@@ -28,7 +28,6 @@ gem 'simple_form', github: 'heartcombo/simple_form'
 
 gem "autoprefixer-rails", "10.2.5"
 gem "font-awesome-sass", "~> 5.15"
-gem "simple_form", github: "heartcombo/simple_form"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false

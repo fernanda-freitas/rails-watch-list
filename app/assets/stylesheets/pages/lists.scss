@@ -1,0 +1,37 @@
+.banner {
+  background:linear-gradient(0deg, rgba(0,16,24, 1), rgba(0,16,24, 0.3), rgba(0,16,24, 0.1)), url(opearcao-secreta.webp);
+  height: 70vh;
+  background-size: cover;
+  object-fit: cover;
+
+  h1 {
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .banner-content {
+    margin-top: 11rem;
+  }
+}
+
+.list-card {
+  height: 234px;
+  width: 367px;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  background:linear-gradient(0deg, rgba(0,16,24, 1), rgba(0,16,24, 0.3), rgba(0,16,24, 0.1)), url(raw.jpeg);
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  padding: 2rem;
+  text-decoration: none;
+
+
+  .card-list-name {
+    color: #fff;
+    text-align: left;
+  }
+}

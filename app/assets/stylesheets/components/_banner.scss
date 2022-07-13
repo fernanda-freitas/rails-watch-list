@@ -1,0 +1,24 @@
+.banner {
+  height: 70vh;
+
+  h1 {
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .banner-content {
+    margin-top: 11rem;
+  }
+
+  &.index-page {
+    background:linear-gradient(0deg, rgba(0,16,24, 1), rgba(0,16,24, 0.3), rgba(0,16,24, 0.1)), url(opearcao-secreta.webp);
+    background-size: cover;
+  }
+  &.new-page {
+    background:linear-gradient(0deg, rgba(0,16,24, 1), rgba(0,16,24, 0.3), rgba(0,16,24, 0.1)), url(new-background-image.jpeg);
+    background-size: cover;
+  }
+}

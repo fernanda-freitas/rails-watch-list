@@ -1,4 +1,8 @@
-<%= simple_form_for @list do |f| %>
-  <%= f.input :name %>
-  <%= f.submit %>
-<% end %>
+<div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light banner new-page">
+    <div class="col-md-3 p-lg-5 mx-auto text-left banner-content">
+      <%= simple_form_for @list, class: 'simple-form' do |f| %>
+        <%= f.input :name, class: 'form-control'  %>
+        <%= f.submit class: 'btn btn-primary' %>
+      <% end %>
+    </div>
+</div>

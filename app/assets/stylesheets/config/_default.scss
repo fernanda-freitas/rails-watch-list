@@ -10,3 +10,24 @@ html, body {
       max-width: 1540px !important;
   }
 }
+
+.simple_form {
+  .string {
+    text-align: left;
+  }
+
+  .form-control{
+    background: transparent;
+    border-radius: 8px;
+    border-color: $grey500;
+  }
+
+  .btn-primary {
+    width: 100%;
+    border-radius: 8px;
+  }
+}
+
+.form-label {
+  color: $grey300;
+}

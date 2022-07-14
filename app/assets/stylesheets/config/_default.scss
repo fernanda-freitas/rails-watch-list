@@ -1,6 +1,7 @@
 html, body {
   background-color: $black !important;
 }
+
 .content {
   margin-bottom: 4rem;
 }
@@ -9,6 +10,12 @@ html, body {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
       max-width: 1540px !important;
   }
+}
+
+a {
+  color: $grey300 !important;
+  font-weight: 600;
+  text-decoration: none !important;
 }
 
 .simple_form {

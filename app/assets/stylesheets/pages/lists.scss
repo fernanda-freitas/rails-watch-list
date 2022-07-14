@@ -16,3 +16,23 @@
     text-align: left;
   }
 }
+
+.movies-show {
+  color: #fff;
+
+  .action-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .movies-display {
+
+  }
+}
+
+.movie-poster {
+  width: 152px;
+  height: 204px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
